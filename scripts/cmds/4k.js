@@ -2,11 +2,11 @@ const axios = require("axios");
 
 const mahmud = async () => {
   const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
-  return base.data.mahmud;
+  return base.data.rajib;
 };
 
 /**
-* @author MahMUD
+* @author RAJIB
 * @author: do not delete it
 */
 
@@ -14,7 +14,7 @@ module.exports = {
   config: {
     name: "4k",
     version: "1.7",
-    author: "MahMUD",
+    author: "RAJIB",
     countDown: 10,
     role: 0,
     category: "tools",
