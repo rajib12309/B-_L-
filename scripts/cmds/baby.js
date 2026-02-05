@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const mahmud = [
+const rajib = [
   "baby",
   "bby",
   "babu",
@@ -16,11 +16,11 @@ const mahmud = [
 
 const baseApiUrl = async () => {
   const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
-  return base.data.mahmud;
+  return base.data.rajib;
 };
 
 /**
-* @author MahMUD
+* @author RAJIB
 * @author: do not delete it
 */
 
@@ -28,7 +28,7 @@ module.exports.config = {
    name: "hinata",
    aliases: ["baby", "bby", "bbu", "jan", "janu", "wifey", "bot"],
    version: "1.7",
-   author: "MahMUD",
+   author: "RAJIB",
    role: 0,
    category: "chat",
    guide: {
@@ -162,7 +162,7 @@ module.exports.onChat = async ({ api, event }) => {
           "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",  
           "🐒🐒🐒",
           "bye",
-          "naw amr boss k message daw m.me/mahmud0x7",
+          "AMAR BOSS AHMED RAJIB K MASSAG DEW",
           "mb ney bye",
           "meww",
           "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
