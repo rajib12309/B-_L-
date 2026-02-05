@@ -8,7 +8,7 @@ const baseApiUrl = async () => {
 };
 
 /**
-* @author MahMUD
+* @author RAJIB
 * @author: do not delete it
 */
 
@@ -17,7 +17,7 @@ module.exports = {
     name: "album", 
     version: "1.7", 
     role: 0, 
-    author: "MahMUD", 
+    author: "RAJIB", 
     category: "media", 
     guide: { 
       en: "{p}{n} [page number] (e.g., {p}{n} 2 to view the next page)\n{p}{n} add [category] [URL] - Add a video to a category\n{p}{n} list - View total videos in each category",
