@@ -2,11 +2,11 @@ const axios = require("axios");
 
 const mahmud = async () => {
   const base = await axios.get("https://raw.githubusercontent.com/mahmudx7/HINATA/main/baseApiUrl.json");
-  return base.data.mahmud;
+  return base.data.rajib;
 };
 
 /**
-* @author MahMUD
+* @author RAJIB
 * @author: do not delete it
 */
 
@@ -19,14 +19,14 @@ module.exports = {
     description: "Anime info fetcher",
     usage: "af <anime name>",
     cooldown: 5,
-    author: "MahMUD"
+    author: "RAJIB"
   },
 
   onStart: async function ({ api, event, args }) {
     if (!args[0]) return api.sendMessage("⚠️ Please enter an anime name", event.threadID, event.messageID);
 
     try {
-      const url = `${await mahmud()}/api/animeinfo?animeName=${encodeURIComponent(args.join(" "))}`;
+      const url = `${await rajib()}/api/animeinfo?animeName=${encodeURIComponent(args.join(" "))}`;
       const res = await axios.get(url);
       const { formatted_message, data } = res.data;
 
@@ -39,7 +39,7 @@ module.exports = {
 
     } catch (e) {
       console.error(e);
-      api.sendMessage("🥹error, contact MahMUD", event.threadID, event.messageID);
+      api.sendMessage("🥹error, contact RAJIB", event.threadID, event.messageID);
     }
   }
 };
